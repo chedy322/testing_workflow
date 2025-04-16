@@ -11,6 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install dependencies
-        uses: npm ci
+        run: npm ci
       - name: Test application
-        uses: npm run test
+        run: npm run test
